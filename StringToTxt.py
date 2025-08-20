@@ -10,8 +10,8 @@ with open(local_file_name, "w", encoding="utf-8") as file:
     file.write(text_to_store)
 
 # Verbindung zum Azure Blob Storage
-connection_string = "<DefaultEndpointsProtocol=https;AccountName=azcominfraimport;AccountKey=PnR01Ed3w1lQZtgtPGzjmdU2sgj0yPTj/Co8pFGRhLswxAYz8GL4hwtpIYTlzomTa2BNFDvtHWog+AStu2WoZw==;EndpointSuffix=core.windows.net>"
-container_name = "<janeriksmuckeligeecke>"
+connection_string = "<DefaultEndpointsProtocol=>"
+container_name = "<>"
 
 # BlobServiceClient erstellen
 blob_service_client = BlobServiceClient.from_connection_string(connection_string)
